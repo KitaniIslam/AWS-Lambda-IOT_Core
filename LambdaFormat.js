@@ -11,8 +11,8 @@ var device = awsIot.device({
 
 exports.handler = (event, context) => {
   device.publish(
-    "test",
-    JSON.stringify({ test_data: "hello from nodejs client" }),
+    "TestTopic",
+    JSON.stringify({ test_data: "Hello From Lambda" }),
     function() {
       context.done();
     }

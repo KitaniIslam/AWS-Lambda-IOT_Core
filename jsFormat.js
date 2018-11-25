@@ -11,5 +11,5 @@ var device = awsIot.device({
 
 device.publish(
   "TestTopic",
-  JSON.stringify({ test_data: "hello from nodejs client" })
+  JSON.stringify({ test_data: "Hello From My Device" })
 );
