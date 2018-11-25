@@ -12,3 +12,5 @@
         ]
     }
 ```
+
+#### Resource it can be "\*" mean all Resources
